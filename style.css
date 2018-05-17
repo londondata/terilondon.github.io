@@ -1,7 +1,8 @@
 * {
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	box-sizing: border-box;
 	font-family: 'Space Mono', monospace;
+	text-decoration: none;
 }
 
 nav {
@@ -10,6 +11,9 @@ nav {
 	justify-content: space-between;
 	color: white;
 	text-decoration: none;
+/*	background-color: transparent;
+  	width: 100%;
+  	position:fixed;*/
 }
 header {
 	background-image: url("images/astrology-astronomy-beautiful-713664.jpg");
@@ -27,6 +31,12 @@ h1 {
 	text-align: center;
 }
 
+.smallhero {
+	  display: flex;
+	  justify-content: center;
+	align-items: center;
+	height: 600px;
+}
 
 #smallhero {
 /*	margin: 300px, 150px;*/
@@ -37,24 +47,38 @@ h1 {
 	opacity: .8;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	border-radius: 5px;
+	margin: auto;
 }
-
-/*#about {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-/*	align-content: column;*/
-	justify-content: space-around;
-}*/
 
 #about1 {
-	width: 250px;
-	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+/*	align-items: center;
+*/	padding: 50px;
+	margin: auto;
+/*	width: 75%;*/
 }
-/*#about2 {
-width: 250px;
-	height: auto;
-}*/
+
+#abouttext1 {
+	padding: 50px;
+	margin: 50px;
+	border: 5px solid black;
+}
+
+#about2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+/*	align-items: center;
+*/	padding: 50px;
+	margin: auto;
+/*	width: 75%;*/
+}
+
+#abouttext2 {
+	padding: 50px;
+	margin: 50px;
+	border: 5px solid black;
+}
