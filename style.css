@@ -90,8 +90,12 @@ a:link > #about {
     font-style: bold;
 }*/
 
+#aboutpic1 {
+	border-radius: 5px;
+}
+
 #abouttext1 {
-	padding: 25px;
+	padding: 50px;
 	margin: 20px;
 	border: 5px solid black;
 }
@@ -102,19 +106,30 @@ a:link > #about {
 	justify-content: space-around;
 /*	align-items: center;
 */	padding: 25px;
-	margin: auto;
+	margin: ;
 	background-color: black;
 	color: white;
 /*	width: 75%;*/
 }
 
 #abouttext2 {
-	padding: 25px;
+	padding: 50px;
 	margin: 20px;
 	border: 5px solid black;
+}
+
+#aboutpic2 {
+	border-radius: 5px;
+}
+
+.carousel{
+	margin-left: -50px;
 }
 
 .carousel-item {
 	border-radius: 5px;
 }
 
+.carousel-description {
+	display: none;
+}
