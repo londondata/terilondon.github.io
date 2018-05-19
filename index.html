@@ -2,13 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8" defer>
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/latest/slick.css">
 
 	<script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 
    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -19,6 +21,8 @@
   
 	<script src="main.js"></script>
 
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<title>Teri London</title>
 </head>
@@ -32,21 +36,21 @@
 				<a href= "#Resume">Resume</a>
 				<a href= "#">Contact</a>
 			</div>
+			<div class = "socialnav">
+				<a href = "http://www.facebook.com/terilondon"><i class="fab fa-facebook-square"></i></a>
+				<a href = "http://www.twitter.com/teri_london"><i class="fab fa-twitter-square"></i></a>
+				<a href = "http://www.linkedin.com/in/terilondon"><i class="fab fa-linkedin"></i></a>
+				<a href = "https://github.com/teripanda"><i class="fab fa-github-square"></i></a>
+				<a href = "mailto: teri.london@gmail.com"><i class="fas fa-envelope-square"></i></a>
+			</div>	
+	</nav>
 			<div class = "smallhero">
 				<img id ="smallhero" src= "images/terilondonsmallheroimage.jpg" alt = "Teri London">
 			</div>
-			<div class = "socialnav">
-				<a href = "http://www.facebook.com/terilondon">Facebook</a>
-				<a href = "http://www.twitter.com/teri_london">Twitter</a>
-				<a href = "http://www.linkedin.com/in/terilondon">LinkedIn</a>
-				<a href = "https://github.com/teripanda">GitHub</a>
-				<a href = "#">Email</a>
-			</div>	
-	</nav>
 	</header>
 		<main>
-		<section id = "Portfolio"><a name ="Portfolio"></a>
-			<h1>Portfolio</h1>
+		<section id = "Portfolio" class='fader'><a name ="Portfolio"></a>
+			<h1 class="fader">Portfolio</h1>
 			<div class ="carousel">
 				<div class="carousel-item" href="#one!"><img class="materialboxed" data-caption="[adultswim] Mobile App Redesign" src = "images/adultswimlogo.jpg" alt="Adult Swim"></div>
 
@@ -61,12 +65,14 @@
 				<div class="carousel-item" href="#six!"><img class="materialboxed" data-caption="Jimmyjane Digital Presence Setup" src = "images/jimmyjane.jpg" alt="Jimmyjane"></div>
 			</div>
 		</section>
-		<h1 class "aboutheader">About</h1>
 		<section id = "About"><a name ="About"></a>
+			<h1 class "aboutheader" class="fader">About</h1>
+			<div class="about1">
 			<img id = "aboutpic1" src="images/teri_ga_headshot.jpg">
 			<article id = "abouttext1">Greetings. I am a devoted tech divinity who was ‘born on the Internet’ - a freelance UX|UI designer, web developer and a former digital marketing entrepreneur. I am the technomancer.
 
 			My youth was spent immersed in the new technologies in front of me until nerdy computer habits became a clear path to a career. After many years successfully running my own digital marketing company, I developed an affinity for user experience design and the sophisticated way it blends art, culture, science, technology and people. I pivoted my self-made path to begin my formal education at <a href="https://generalassemb.ly/">General Assembly</a> where I completed the UXDI program in February 2018 and graduate the WDI program in July 2018 after rekindling my lifelong love of code. I spend my time freelancing, consulting and pursuing my passion projects along the way.</article>
+		</div>
 		</section>
 		<section id = "about2">
 			<article id = "abouttext2">
@@ -75,7 +81,7 @@
 		</section>
 		<section id = "Resume"><a name ="Resume"></a>
 		</section>
-		<section id = "Testimonials"><a name ="Testimonials"></a>
+		<section id = "Testimonials" class='fader'><a name ="Testimonials"></a>
 			<h1>Testimonals</h1>
 			<blockquote>“I have been a friend and co-worker of Teri for over fifteen years. She’s one of the most passionate individuals I’ve ever had the privilege to meet as a friend or have as a business associate. Anyone lucky enough to cross her path will surely agree: Teri brings 110% of her fire and zeal to the table on any given project. She’s a powerhouse and a great companion and compatriot to have in your corner.” - Margaret Dempsey</blockquote>
 			<blockquote>"Teri is a witch" - Everyone</blockquote>

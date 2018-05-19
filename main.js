@@ -3,7 +3,7 @@ $(function(){
 
 // top scroll function
 $(window).scroll(function(){
-  $("header").css("opacity", 1 - $(window).scrollTop() / 560);
+  $("header").css("opacity", 1 - $(window).scrollTop() / 500);
 });
 
 // nav
@@ -17,6 +17,7 @@ $('a').click(function(){
 
  $('.carousel').carousel();
  $('.materialboxed').materialbox();
+
 
 });
 

@@ -1,26 +1,22 @@
 * {
 /*	border: 1px solid black;*/
 	box-sizing: border-box;
-	font-family: 'Space Mono', monospace;
+	font-family: 'Josefin Sans',
 	text-decoration: none;
 }
 
-/* unvisited link */
 a:link {
     color: white;
 }
 
-/* visited link */
 a:visited {
     color: white;
 }
 
-/* mouse over link */
 a:hover {
     color: black;
 }
 
-/* selected link */
 a:active {
     color: black;
 }
@@ -35,22 +31,27 @@ nav {
   	width: 100%;
   	position:fixed;
   	box-shadow: none;
+/*  	padding-left: 15px;
+  	padding-right: 15px;*/
 }
+
 header {
 	background-image: url("images/astrology-astronomy-beautiful-713664.jpg");
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  /*  padding: 175px;*/
     height: 600px;
     z-index: 1;
-	/*margin-bottom: 48px;*/
+    width: 100%;
+
 }
 
 h1 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 4em;
+	font-family: 'Poiret One';
+	font-weight: 400;
 }
 
 .smallhero {
@@ -61,43 +62,42 @@ h1 {
 }
 
 #smallhero {
-/*	margin: 300px, 150px;*/
-/*	padding: 150px, 50px;*/
 	z-index: 3;
 	max-height: 300px;
 	max-width: 200px;
 	opacity: .8;
-	display: flex;
-	flex-direction: row;
 	border-radius: 5px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #About {
+	background-color: black;
+	color: white;
+	padding: 10px 50px 0 50px;
+}
+
+/*.aboutheader {
+	margin-top: 20px;
+}*/
+
+.about1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-/*	align-items: center;
-*/	padding: 25px;
+/*	padding: 25px;*/
 	margin: auto;
-	background-color: black;
-	color: white;
+	
 /*	width: 75%;*/
 }
-/*
-a:link > #about {
-    color: black;
-    font-style: bold;
-}*/
 
-#aboutpic1 {
+#aboutpic1, #aboutpic2 {
 	border-radius: 5px;
 }
 
 #abouttext1 {
 	padding: 50px;
 	margin: 20px;
-	border: 5px solid black;
+	font-size: 1em;
 }
 
 #about2 {
@@ -109,27 +109,22 @@ a:link > #about {
 	margin: ;
 	background-color: black;
 	color: white;
+	padding: 0px 50px 20px 50px;
 /*	width: 75%;*/
 }
 
 #abouttext2 {
-	padding: 50px;
+	padding: 100px 50px 50px 50px;
 	margin: 20px;
-	border: 5px solid black;
-}
-
-#aboutpic2 {
-	border-radius: 5px;
 }
 
 .carousel{
 	margin-left: -50px;
+	margin-top: -60px;
+	margin-bottom: 70px;
 }
 
-.carousel-item {
+.materialboxed {
 	border-radius: 5px;
 }
 
-.carousel-description {
-	display: none;
-}
