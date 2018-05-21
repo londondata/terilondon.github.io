@@ -173,6 +173,7 @@ blockquote {
   display: none;
   padding: 80px;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .prev, .next {
@@ -200,7 +201,7 @@ blockquote {
   color: white;
 }
 
-.dot-container {
+/*.dot-container {
   text-align: center;
   padding: 20px;
   background: #ddd;
@@ -219,7 +220,7 @@ blockquote {
 
 .active, .dot:hover {
   background-color: #371672;
-}
+}*/
 
 q {font-style: italic;}
 
