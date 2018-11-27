@@ -137,10 +137,11 @@ h1 {
 	flex-direction: row;
 	justify-content: space-around;
 /*	align-items: center;
-*/	padding: 25px;
+*/	padding: 15px;
 	background-color: black;
 	color: white;
 	padding: 25px 75px 40px 75px;
+	text-align: right;
 	/* margin-top: -1px; */
 /*	width: 75%;*/
 }
@@ -149,7 +150,7 @@ h1 {
 	padding: 50px;
 	margin: 20px;
 	font-size: 1.2em;
-	text-align: justify;
+	text-align: right;
 }
 
 /* RESUME */
