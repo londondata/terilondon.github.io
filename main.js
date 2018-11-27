@@ -13,7 +13,7 @@ $(document).on('scroll', function(){
     var offset = $(this).offset().top;
 
     if(currPos > offset) {
-      $(this).css('opacity', 1 - (currPos - offset) / 500);
+      $(this).css('opacity', 1 - (currPos - offset) / 1500);
     }
   })
 });
@@ -52,22 +52,22 @@ function auto(){
   }, 5000)
 }
 
-auto() 
+auto()
 
 function showTestimonials(n) {
   var i;
   var testimonials = $(".myTestimonials");
   var dots = $('.dot')
-  if (n > testimonials.length) {testimonialsIndex = 1} 
+  if (n > testimonials.length) {testimonialsIndex = 1}
     if (n < 1) {testimonialsIndex = testimonials.length}
     for (i = 0; i < testimonials.length; i++) {
-      
+
       $(testimonials[i]).css('display', "none")
     }
     for (i = 0; i < dots.length; i++) {
     $(dots[i]).removeClass('active')
     }
-  
+
   $(testimonials[testimonialsIndex-1]).css('display', "block")
   $(dots[testimonialsIndex-1]).toggleClass('active')
 }

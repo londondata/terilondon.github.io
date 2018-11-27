@@ -6,11 +6,11 @@
 }
 
 a:link {
-    color: white;
+    color: #97A2B7;
 }
 
 a:visited {
-    color: white;
+    color: #97A2B7;
 }
 
 a:hover {
@@ -20,6 +20,8 @@ a:hover {
 a:active {
     color: black;
 }
+
+/* NAV */
 
 nav {
   display: flex;
@@ -39,6 +41,8 @@ nav a {
 	padding: 0 8px;
 }
 
+/* HEADER */
+
 header {
 	background-image: url("images/astrology-astronomy-beautiful-713664.jpg");
 	background-repeat: no-repeat;
@@ -56,6 +60,9 @@ h1 {
 	font-size: 4em;
 	font-family: 'Poiret One';
 	font-weight: 400;
+	background-color: transparent;
+	padding-top: 25px;
+	margin-top: 0px;
 }
 
 .smallhero {
@@ -74,39 +81,55 @@ h1 {
 	margin: 0 auto;
 }
 
+/* PORTFOLIO */
+
+.portfoliomain {
+	background-color: #F9F9FF;
+	padding-bottom: 70px;
+}
+
+.carousel {
+	margin-left: -44px;
+	margin-top: -75px;
+
+}
+
+.materialboxed {
+	border-radius: 5px;
+}
+
+/* ABOUT */
+
 #About {
 	background-color: black;
 	color: white;
 	padding: 10px 75px 25px 75px;
 }
 
-/*.aboutheader {
+.aboutheader {
 	margin-top: 20px;
-}*/
+}
 
 .about1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 /*	padding: 25px;*/
-	margin: auto;
+	/* margin: auto; */
 
 /*	width: 75%;*/
 }
 
-#aboutpic1 {
-	width: 50px;
-	height: auto;
-}
-
-#aboutpic1, #aboutpic2 {
+.pics {
 	border-radius: 5px;
+	margin: 10px;
+	margin-bottom: 50px;
 }
 
 #abouttext1 {
-	padding: 50px;
+	padding: 30px;
 	margin: 20px;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 #about2 {
@@ -118,49 +141,46 @@ h1 {
 	background-color: black;
 	color: white;
 	padding: 25px 75px 40px 75px;
-	margin-top: -1px;
+	/* margin-top: -1px; */
 /*	width: 75%;*/
 }
 
 #abouttext2 {
 	padding: 100px 50px 50px 50px;
 	margin: 20px;
+	font-size: 1.2em;
 }
 
-.carousel {
-	margin-left: -44px;
-	margin-top: -75px;
-	margin-bottom: 70px;
-}
+/* RESUME */
 
-.materialboxed {
-	border-radius: 5px;
+.resumemain {
+	background-color: #F9F9FF;
+	padding-bottom: 20px;
 }
-
+.resumeimage {
+	background-color: #FFFFFF;
+}
 #Resume img {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-    padding: 5px;
-/*	max-height: auto;
-	max-width: 750px;*/
-
-	border: 1px solid black;
+		margin: auto;
+    width: 75%;
+		padding: 10px;
+	border: 2px solid black;
 }
+
+/* FOOTER */
 
 .footernav {
 	background-color: black;
 	color: white;
 	font-size: 2em;
-	margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: space-between;
 }
 
 .footernav a {
-	padding: 8px;
+	padding: 10px;
 }
 /*fixing materialize CSS*/
 
