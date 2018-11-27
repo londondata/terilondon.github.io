@@ -146,9 +146,10 @@ h1 {
 }
 
 #abouttext2 {
-	padding: 100px 50px 50px 50px;
+	padding: 50px;
 	margin: 20px;
 	font-size: 1.2em;
+	text-align: justify;
 }
 
 /* RESUME */
