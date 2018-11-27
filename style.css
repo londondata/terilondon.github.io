@@ -22,7 +22,7 @@ a:active {
 }
 
 nav {
-    display: flex;
+  display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	color: white;
@@ -90,8 +90,13 @@ h1 {
 	justify-content: space-around;
 /*	padding: 25px;*/
 	margin: auto;
-	
+
 /*	width: 75%;*/
+}
+
+#aboutpic1 {
+	width: 250px;
+	height: auto;
 }
 
 #aboutpic1, #aboutpic2 {
