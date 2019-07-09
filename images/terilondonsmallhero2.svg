@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="250px" viewBox="0 0 350 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TLmainhero">
+            <rect id="Rectangle" stroke="#000000" fill="#000000" x="0.5" y="0.5" width="349" height="249"></rect>
+            <text id="Teri-London" font-family="YouCanMakeYourOwnFont, You Can Make Your Own Font" font-size="56" font-weight="normal" fill="#FFFFFF">
+                <tspan x="46.6210938" y="96">Teri London</tspan>
+            </text>
+            <text id="{-UI-Engineer-}" font-family="Avenir-Heavy, Avenir" font-size="34" font-weight="600" fill="#FFFFFF">
+                <tspan x="63.29" y="177">{ UI Engineer }</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
