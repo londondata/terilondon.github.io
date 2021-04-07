@@ -29,6 +29,7 @@ nav {
 	justify-content: space-between;
 	color: white;
 	text-decoration: none;
+	font-size: 1.2em;
 	background-color: transparent;
   	width: 100%;
   	position:fixed;
@@ -49,7 +50,7 @@ header {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 500px;
     z-index: 1;
     width: 100%;
 
@@ -69,7 +70,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 600px;
+	height: 500px;
 }
 
 #smallhero {
